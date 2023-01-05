@@ -1,0 +1,22 @@
+body {
+    background-color: #0e0e0e;
+}
+
+h1,
+p,
+h3 {
+    color: aliceblue;
+}
+
+.navColor {
+    color: antiquewhite;
+}
+
+hr {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 20%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
