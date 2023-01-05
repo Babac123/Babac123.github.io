@@ -48,28 +48,20 @@
 
     <div class="container py-5">
         <div class="row">
-            <div class="mapouter col-sm-6">
-                <div class="gmap_canvas"><iframe width="400" height="500" id="gmap_canvas"
+            <div class="mapouter col-md-6 mb-3">
+                <div class="gmap_canvas"><iframe width="300" height="400" id="gmap_canvas"
                         src="https://maps.google.com/maps?q=trg%20bana%20josipa%20jelacica&t=&z=13&ie=UTF8&iwloc=&output=embed"
                         frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     <style>
                         .mapouter {
                             position: relative;
-                            text-align: right;
-
+                            text-align: center;
                         }
                     </style>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 500px;
-                            width: 500px;
-                        }
-                    </style>
+                  
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <form method="POST" id="contactForm" name="contactForm" class="contactForm">
                     <div class="row">
                         <div class="col-md-12">
@@ -94,7 +86,7 @@
                                     placeholder="Message"></textarea>
                             </div>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-lg-12">
                             <div class="form-group">
                                 <input type="submit" value="Send Message" class="btn btn-primary">
                                 <div class="submitting"></div>
