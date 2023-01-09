@@ -1,107 +1,138 @@
 body {
-    background-color: #0e0e0e;
+  background-color: #0e0e0e;
 }
 
 h1,
 p,
 h3,
 h4 {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .navColor {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 
 hr {
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 20%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 20%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
 }
 
-
-
 .col-form-label-lg {
-    padding-top: calc(0.5rem + 1px);
-    padding-bottom: calc(0.5rem + 1px);
-    font-size: 1.25rem;
-    line-height: 1.5;
+  padding-top: calc(0.5rem + 1px);
+  padding-bottom: calc(0.5rem + 1px);
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 .col-form-label-sm {
-    padding-top: calc(0.25rem + 1px);
-    padding-bottom: calc(0.25rem + 1px);
-    font-size: 0.875rem;
-    line-height: 1.5;
+  padding-top: calc(0.25rem + 1px);
+  padding-bottom: calc(0.25rem + 1px);
+  font-size: 0.875rem;
+  line-height: 1.5;
 }
 
 .form-control-plaintext {
-    display: block;
-    width: 100%;
-    padding-top: 0.375rem;
-    padding-bottom: 0.375rem;
-    margin-bottom: 0;
-    line-height: 1.5;
-    color: #212529;
-    background-color: transparent;
-    border: solid transparent;
-    border-width: 1px 0;
+  display: block;
+  width: 100%;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  border: solid transparent;
+  border-width: 1px 0;
 }
 
 .form-control-plaintext.form-control-sm,
 .form-control-plaintext.form-control-lg {
-    padding-right: 0;
-    padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .form-control-sm {
-    height: calc(1.5em + 0.5rem + 2px);
-    padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    border-radius: 0.2rem;
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
 }
 
 .form-control-lg {
-    height: calc(1.5em + 1rem + 2px);
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    border-radius: 0.3rem;
+  height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
 }
 
 select.form-control[size],
 select.form-control[multiple] {
-    height: auto;
+  height: auto;
 }
 
 textarea.form-control {
-    height: auto;
+  height: auto;
 }
 
 .form-group {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .form-text {
-    display: block;
-    margin-top: 0.25rem;
+  display: block;
+  margin-top: 0.25rem;
 }
 
-
-
 .bg-primary {
-    background: #bc9864 !important;
+  background: #bc9864 !important;
 }
 
 .btn-primary {
-    background-color: #bc9864;
-    border: none;
+  background-color: #bc9864;
+  border: none;
 }
 
 .btn-primary:hover {
-    background-color: #70532a;
+  background-color: #70532a;
 }
+
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.4;
+  transition: 300ms;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #24b82b;
+    color: white;
+  }
